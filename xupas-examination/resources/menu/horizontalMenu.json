@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/problem-php-1",
+      "icon": "menu-icon tf-icons mdi mdi-file-document-outline",
+      "name": "PHP Problem",
+      "slug": "pages-php-1"
+    },
+    {
+      "url": "/problem-sql-1",
+      "icon": "menu-icon tf-icons mdi mdi-file-document-outline",
+      "name": "SQL Problem",
+      "slug": "pages-sql-1"
+    }
+  ]
+}
