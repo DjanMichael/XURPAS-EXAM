@@ -62,7 +62,17 @@ class SolutionService implements CanSolveProblems
               break;
           }
       }
-      return $resultString;
+
+      $html = "<div class='card'>
+                <div class='alert alert-primary alert-dismissible' role='alert'>
+                  <h4 class='alert-heading d-flex align-items-center'>&#128591; Answer:</h4>
+                  <hr>
+                  <p class='mb-0'>
+                  $resultString
+                  </p>
+                </div>
+              </div>";
+      return $html;
   }
 
 }

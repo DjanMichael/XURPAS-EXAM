@@ -33,7 +33,7 @@ class SolutionTwoPhpRequest extends FormRequest
         {
           $rules += [
               'sentence' => ['required'],
-              'maxCount' => ['required'],
+              'maxCount' => ['required','gt:-1','numeric'],
 
           ];
         }
